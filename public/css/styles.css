@@ -1,0 +1,506 @@
+
+
+
+body {
+
+    background-color: rgba(255, 117.93749392032623, 150.83252638578415, 1);
+    width: 1226px;
+    height: 600px;
+    position: relative;
+    width: 100%;
+
+}
+
+.header {
+    background-color: rgba(46, 0, 47, 1);
+    width: 100;
+    height: 50px;
+    margin-left: px;
+    border-radius: 30px;
+
+
+
+}
+
+.fundo {
+    background-color: rgba(46, 0, 47, 1);
+    width: 1320px;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 570px;
+}
+
+
+.mascote {
+    margin-left: 1089px;
+    margin-top: 350px;
+    width: 140px;
+
+}
+
+.denv {
+    width: 370px;
+    height: 190px;
+    margin-left: -1187px;
+    margin-top: 353px;
+    position: absolute;
+
+}
+
+
+/*MODAL PERFIL*/
+.checkboxModal {
+    display: none;
+    position: absolute;
+    transform: translate(119px, -560px);
+    opacity: 1%;
+}
+
+#modalExemplo:checked+.modal {
+    display: block;
+
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    width: 25%;
+    height: 280px;
+    margin-left: 75px;
+    background-color: #75d4fa;
+    margin-top: -515px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.modal .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: rgb(248, 246, 246);
+}
+
+.close:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.abrirCadastro {
+    width: 290px;
+    height: 20px;
+    font-size: 20px;
+    border: 2px black solid;
+    background-color: #75d4fa;
+    margin-left: 99px;
+    position: absolute;
+    margin-top: -555px;
+    border-radius: 20px;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+.fornec {
+    position: absolute;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-radius: 7px;
+    margin-left: 90px;
+    margin-top: 10px;
+    height: 20px;
+}
+.pfornec{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -3px;
+    font-family: cursive;
+    font-size: 14px;
+}
+.solicit {
+    position: absolute;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    border-radius: 7px;
+    margin-left: 90px;
+    margin-top: 130px;
+    height: 20px;
+}
+.psolicit{
+    position: absolute;
+    margin-top: 155px;
+    margin-left: -3px;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+
+
+.abrirCadastro:hover {
+    background: #9a979b;
+}
+
+p {
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pm {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/*MODAL RANKING*/
+.checkboxModal1 {
+    display: none;
+    position: absolute;
+    transform: translate(119px, -560px);
+    opacity: 1%;
+    margin-left: 250px;
+}
+
+#modalExemplo1:checked+.modal1 {
+    display: block;
+
+}
+
+.modal1 {
+    display: none;
+    position: absolute;
+    width: 25%;
+    height: 280px;
+    margin-left: 515px;
+    background-color: #75d4fa;
+    margin-top: -515px;
+    border-radius: 20px;
+    overflow: hidden;
+
+
+
+}
+
+.modal1 .close1 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: rgb(248, 246, 246);
+}
+
+.close1:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.abrirCadastro1 {
+    width: 290px;
+    height: 20px;
+    font-size: 20px;
+    border: 2px black solid;
+    background-color: #75d4fa;
+    margin-left: 535px;
+    position: absolute;
+    margin-top: -555px;
+    border-radius: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.abrirCadastro1:hover {
+    background: #9a979b;
+}
+
+.p1 {
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pm1 {
+    font-size: 20px;
+    font-family: cursive;
+    margin-right: 70px;
+
+
+}
+
+/*MODAL FORUM*/
+.checkboxModal2 {
+    display: none;
+    position: absolute;
+    translate: (720px, -569px);
+    opacity: 100%;
+    margin-left: 750px;
+    margin-top: -800px;
+
+}
+
+#modalExemplo2:checked+.modal2 {
+    display: block;
+
+}
+
+.modal2 {
+        display: none;
+        position: absolute;
+        width: 25%;
+        height: 280px;
+        margin-left: 970px;
+        background-color: #75d4fa;
+        margin-top: -515px;
+        border-radius: 20px;
+        overflow: hidden;
+}
+
+
+
+
+.modal2 .close2 {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: rgb(248, 246, 246);
+}
+
+.close2:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.abrirCadastro2 {
+    width: 290px;
+    height: 20px;
+    font-size: 20px;
+    border: 2px black solid;
+    background-color: #75d4fa;
+    margin-left: 999px;
+    position: absolute;
+    margin-top: -555px;
+    border-radius: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.abrirCadastro2:hover {
+    background: #9a979b;
+}
+
+.p2 {
+    margin-top: -5px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.pm2 {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.form {
+    position: relative;
+    width: 80px;
+    margin-left: 1250px;
+    margin-top: -2px;
+    height: 10px;
+    border-radius: 10px;
+
+
+}
+
+.bnt {
+    background-color: rgb(107, 214, 247);
+    margin-top: 5px;
+    width: 70px;
+    margin-left: 1220px;
+    text-align: center;
+    border: black 2px solid;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 490px;
+    position: absolute;
+}
+.bnt:hover{
+    background: #0e62ff;
+}
+
+
+
+
+.conteudomodal {
+    height: 100%;
+}
+
+.bloct {
+
+    margin-top: 0px;
+}
+
+.pf {
+    position: absolute;
+    color: beige;
+    margin-top: -480px;
+    font-size: 25px;
+    margin-left: 77px;
+    font-family: cursive;
+}
+
+.pr {
+    position: absolute;
+    color: beige;
+    margin-top: -500px;
+    font-size: 25px;
+    margin-left: 540px;
+    font-family: cursive;
+}
+
+.pfo {
+    position: absolute;
+    color: beige;
+    margin-top: -480px;
+    font-size: 25px;
+    margin-left: 1000px;
+    font-family: cursive;
+}
+
+.abc {
+    font-size: 10px;
+}
+
+#linkfor {
+    margin-left: 900px;
+    margin-top: -30px;
+}
+
+#linkrank {
+    margin-left: 40px;
+}
+
+.nome {
+    margin-left: 50px;
+margin-top: -35px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+
+}
+.config{
+    margin-left: 1150px;
+    margin-top: 15px;
+    width: 150px;
+    background-color: aqua;
+}
+.slogan{
+    color: rgb(230, 18, 148);
+    font-size: 40px;
+    font-family: cursive;
+    position: absolute;
+    margin-left: 500px;
+
+}
+.cont{
+    color: rgb(230, 18, 148);
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: -150px;
+    font-family: cursive;
+    position: absolute;
+}
+.acess{
+    text-decoration: none;
+
+    margin-left: 600px;
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    font-family: cursive;
+    background-color: aquamarine;
+    border: black 2px solid;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -70px;
+    color: black;
+    text-align:center ;
+}
+.acess:hover{
+    background-color: #0e62ff;
+}
+.contmodal2{
+    margin-top: -10px;
+    margin-left: 90px;
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #ff6868;
+}.inptmod2{
+height: 150px;
+width: 310px;
+margin-top: -10px;
+margin-left: 10px;
+}
+.pinpt2{
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.btnenviar{
+margin-left: 250px;
+}
+.altbtn{
+    width: 100px;
+    background: #06aaf7;
+    position: relative;
+    top: 20px;
+    color: black;
+    border: black 2px solid;
+    margin-left: 100px;
+}
+.altbtn:hover{
+    background: #06aaf7;
+}
+
+.frame{
+    position: absolute;
+    margin-left: 55px;
+    margin-top: -220px;
+    height: 190px;
+    width: 370px;
+    text-decoration: none;
+
+
+}
+.namelog{
+    color: white;
+    margin-left: 50px;
+    font-family: cursive;
+    margin-top: -37px;
+}
+.emaillog{
+    color: white;
+    margin-left: 50px;
+    font-family: cursive;
+}
+.prank{
+    margin-top: 10px;
+}
+td{
+    border: 2px black solid;
+    background-color: rgb(245, 138, 247);
+}
+th{
+    border: 2px black solid;
+    background-color: rgb(171, 4, 173);
+}
+.table{
+    margin-left: 10px;
+    width: 315px;
+}
+
+
+
+
+
+
+
